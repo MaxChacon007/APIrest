@@ -1,7 +1,6 @@
-
 create table medicos(
 
-id bignit not null auto_increment,
+id bigint not null auto_increment,
 nombre varchar(100) not null,
 email varchar(100) not null unique,
 documento varchar(6) not null unique,
@@ -13,6 +12,4 @@ numero varchar(20),
 ciudad varchar(100) not null,
 
 primary key(id)
-
-
 );
